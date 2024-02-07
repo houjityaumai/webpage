@@ -235,6 +235,10 @@ $(function () {
   //--------------シャットダウン機能-----------
   $(".shutdown-btn").on("click", function () {
     sleep(1000);
+    // $draggableElements.each(function () {
+    //   $(this).toggleClass("music-stop");
+    //   musicStop($(this));
+    // });
     $(".shutdown-black").css({
       display: "flex",
       zIndex: maxzindex,

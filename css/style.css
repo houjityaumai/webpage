@@ -333,7 +333,7 @@ main {
 .loading {
   display: flex;
   /* 開発のためのdisplay none */
-  display: none;
+  /* display: none; */
   flex-direction: column;
   z-index: 999;
   color: white;
