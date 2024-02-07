@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./img/化石アイコン1.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
+    integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+  <script src="./js/main.js"></script>
+  <title>JR2253_山尾育大</title>
+</head>
+
+<body>
+  <header>
+    <!-- header アイコン -->
+    <div class="gabage icon">
+      <img src="./img/icons8/icons8-削除-50.png">
+      <p>ゴミ箱</p>
+    </div>
+
+    <div class="yamao-images icon">
+      <img src="./img/icons8/icons8-写真フォルダ-50.png">
+      <p>ピクチャ</p>
+    </div>
+
+    <div class="yamao-information icon">
+      <img src="./img/icons8/icons8-ライブフォルダ-50.png">
+      <p>山尾紹介</p>
+    </div>
+
+    <div class="yamao-music icon">
+      <img src="./img/icons8/icons8-音楽フォルダー-50.png">
+      <p>music</p>
+    </div>
+
+    <div class="icon">
+      <a href="https://www.instagram.com/zeiyu_011223?igsh=MWVteHQ5MDMxcG5sbg%3D%3D&utm_source=qr" target="_blank"><img
+          src="./img/icons8/icons8-インスタグラム-50.png"></a>
+      <p>Instagram</p>
+    </div>
+
+    <div class="icon">
+      <a href="https://github.com/houjityaumai" target="_blank"><img src="./img/icons8/icons8-ツリー構造-50.png"></a>
+      <p>Github</p>
+    </div>
+
+    <div class="site icon">
+      <img src="./img/icons8/icons8-ライブフォルダ-50.png">
+      <p>使用したフリー画像サイト</p>
+    </div>
+
+    <div class = "seting icon">
+      <img src="./img/icons8/icons8-設定-50.png" alt="設定">
+    </div>
+
+  </header>
+  <main>
+    <!-- window -->
+    <div class="day"></div>
+    <div class="yamao-info mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">こんにちは</div>
+      </div>
+      <div class="mini-main">
+        <p>初めまして、山尾です。サイトを見てくれてありがとうございます。いろいろ構ってみてください。頑張って作りました。</p>
+      </div>
+    </div>
+
+    <div class="information mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">山尾の情報</div>
+      </div>
+      <div class="mini-main">
+        <p>名前: 山尾 育大(やまお いくと)</p>
+        <p>年齢: 22歳</p>
+        <p>選択コース: Rubyエンジニアコース</p>
+      </div>
+    </div>
+
+    <div class="kroi mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">【おすすめバンド】 Kroi</div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/music/kroi.jpg" alt="kroi">
+        <p>人気急上昇中のミクスチャーバンドです。個人的には「Sesame」という曲がめちゃくちゃかっこいいです。布教中。</p>
+        <a class="yes-btn" href="https://kroi.net/" target="_blank">はい</a>
+      </div>
+    </div>
+
+    <div class="kinggnu mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">【おすすめバンド】 kinggnu</div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/music/kinggnu.jpg" alt="kinggnu">
+        <p>今や日本を代表するロックバンドです。一番好きな曲は全部です。</p>
+        <a class="yes-btn" href="https://kinggnu.jp/" target="_blank">はい</a>
+      </div>
+    </div>
+
+    <div class="furugi mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">【趣味】 古着</div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/ikuto.png" alt="kroi">
+        <p>古着が好きです。顔はもちろんですが、服までおしゃれなのが私です。</p>
+        <a class="yes-btn" href="#">はい</a>
+      </div>
+    </div>
+
+    <div class="mahari mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">【趣味】 行きつけの古着屋「MAHARI」</div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/mahari.jpg" alt="mahari">
+        <p>古着を買おうと思ったら、いつもこのお店に行きます。僕の持っている服の8割はこのお店で買った服です。店長さんがめちゃめちゃいい人です。</p>
+        <a class="yes-btn" href="https://www.instagram.com/mahari_shimane/?next=%2Fdafffnet%2F" target="_blank">はい</a>
+      </div>
+    </div>
+
+    <div class="drums mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">【趣味】 ドラム</div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/IMG_4314.webp" alt="kroi">
+        <p>おしゃれでかっこいい僕はドラムを演奏することができます。始めた理由はモテたかったからです。</p>
+        <a class="yes-btn"
+          href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiPrJKhvfuDAxUr1BYFHTBEBlYYABAFGgJ0bA&ase=2&gclid=CjwKCAiAzc2tBhA6EiwArv-i6RibmW35nXzZ22ElmLCUqF6id1IFTLStb5uo_y5JEV-NgbRioyTn_xoCMbkQAvD_BwE&ohost=www.google.com&cid=CAESVeD2EdByeGRbtxZlKLZV3j6j4QSNe1bXPXg1fmoJkdMFaiWrBdQlv7akQHTtpqwXxilAgO-bI_PN5gabVIRGc1LyqUlv7WTq6GRzfA_X4k89clNBmbU&sig=AOD64_3ehqjPXUvxllTAVJBea59wDHiVCg&q&nis=4&adurl&ved=2ahUKEwj9j4uhvfuDAxWfavUHHZDUDvAQ0Qx6BAgKEAE"
+          target="_blank">はい</a>
+      </div>
+    </div>
+
+    <div class="hunter mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">【漫画】 ハンター×ハンター</div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/センリツ.webp" alt="kroi">
+        <p>一番好きなキャラクターはゲンスルーです。</p>
+        <a class="yes-btn" href="https://www.shonenjump.com/j/rensai/hunter.html" target="_blank">はい</a>
+      </div>
+    </div>
+
+    <div class="cafe mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">【好物】 コーヒー</div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/コーヒー.webp" alt="cafe">
+        <p>コーヒーが好きですが、味については苦いかそうじゃないかくらいしか分からないです。</p>
+      </div>
+    </div>
+
+    <div class="majan mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title">【趣味】 麻雀</div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="./img/發.jpg" alt="majan">
+        <p>結構弱いので、まだお金をかけていません。</p>
+        <a class="yes-btn" href="https://game.mahjongsoul.com/" target="_blank">はい</a>
+      </div>
+    </div>
+
+    <div class="forest mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">おしゃれなカフェbgm</div>
+      <div class="mini-main">
+        <div class="music-icon">
+          <i class="fa-solid fa-headphones-simple"></i>
+        </div>
+        <audio controls src="./audio/音楽森1.mp3" type="audio/mp3"></audio>
+      </div>
+    </div>
+
+    <div class="jujuop mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">【ピコピコ音源】青のすみか(呪術廻戦2期op)</div>
+      <div class="mini-main">
+        <div class="music-icon">
+          <i class="fa-solid fa-headphones-simple"></i>
+        </div>
+        <audio controls src="./audio/青のすみか.mp3" type="audio/mp3"></audio>
+      </div>
+    </div>
+
+    <div class="haro mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">ハロウィン</div>
+      <div class="mini-main">
+        <div class="music-icon">
+          <i class="fa-solid fa-headphones-simple"></i>
+        </div>
+        <audio controls src="./audio/ハロウィン.mp3" type="audio/mp3"></audio>
+      </div>
+    </div>
+
+    <div class="titinpuipui mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">チチンプイプイ</div>
+      <div class="mini-main">
+        <div class="music-icon">
+          <i class="fa-solid fa-headphones-simple"></i>
+        </div>
+        <audio controls src="./audio/チチンプイプイ.mp3" type="audio/mp3"></audio>
+      </div>
+    </div>
+
+    <div class="daijoyuusan mini-window l">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">大女優さん</div>
+      <div class="mini-main">
+        <div class="music-icon">
+          <i class="fa-solid fa-headphones-simple"></i>
+        </div>
+        <audio controls src="./audio/大女優さん.mp3" type="audio/mp3"></audio>
+      </div>
+    </div>
+
+    <div class="mini-window alert alert1">
+      <a class="batu" href="#">×</a>
+      <div class="coment">
+        <img src="./img/注意2.png" alt="警告">
+        <p>こんにちは！山尾育大です！<br>やまおいくと<br>と読みます！</p>
+      </div>
+    </div>
+
+    <div class="mini-window alert alert2">
+      <a class="batu" href="#">×</a>
+      <div class="coment">
+        <img src="./img/注意2.png" alt="警告">
+        <p>いろいろ触ってみてね！</p>
+      </div>
+    </div>
+
+    <div class="mini-window alert alert3">
+      <a class="batu" href="#">×</a>
+      <div class="coment">
+        <img src="./img/注意2.png" alt="警告">
+        <p>ウィンドウはすべてドラッグできるよ</p>
+      </div>
+    </div>
+
+    <!-- window系列は何のwindowなのかを識別するために、はじめに固有のクラス名をつける。jsのwindow機能で使用する。 -->
+    <!-- 写真フォルダ項目 -->
+    <div class="yamao-images mini-window window">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">ピクチャ</div>
+      <div class="mini-main">
+        <div class="images">
+          <div class="image-content">
+            <img src="./img/画像作品/IT学科ロゴ_pengin.png" alt="ペンギン">
+            <p>ITpenngin</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/ふわふわのカニ1.png" alt="ふわふわのカニ">
+            <p>ふわふわのカニ</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/ディモルフォドン.svg" alt="ディモルフォドン">
+            <p>ディモルフォドン</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/ロゴIT２.png" alt="IT登山家">
+            <p>IT登山家</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/八割れ1.png" alt="はちわれ">
+            <p>ハチワレ</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/ちいかわ.svg" alt="ちいかわ">
+            <p>ちいかわ</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/夏油.png" alt="笑顔お兄さん">
+            <p>笑顔お兄さん</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/鮮血.png" alt="鮮血">
+            <p>鮮血</p>
+          </div>
+
+          <div class="image-content">
+            <img src="./img/画像作品/愛してる.png" alt="愛してる">
+            <p>愛してる.png</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- musicフォルダ項目 -->
+    <div class="yamao-music mini-window window">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">music</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul class="musics">
+            <li class="jisaku">
+              <div class="music-content">
+                <img src="./img/icons8/icons8-音楽フォルダー-50.png" alt="自作曲">
+                自作曲
+              </div>
+            </li>
+            <li class="copy">
+              <div class="music-content">
+                <img src="./img/icons8/icons8-音楽フォルダー-50.png" alt="耳コピ">
+                耳コピ
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- アイコン紹介フォルダ項目 -->
+    <div class="site mini-window window">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">使用したフリー画像サイト</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul>
+            <li class="icons8"><a href="#">icons8</a></li>
+            <li><a href="https://icooon-mono.com/" target="_blank">icooon-mono</a></li>
+            <li><a href="https://sozaino.site/archives/5779" target="_blank">OKUMONO</a></li>
+            <li class = "FREEPIK"><a href="#">FREEPIK</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- フリー画像紹介icons8 -->
+    <div class="icons8 mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">icons8</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul>
+            <li><a target="_blank" href="https://icons8.com/icon/QHf3TzLgHqqB/%E9%9F%B3%E6%A5%BD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%BC">音楽フォルダー</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/s5NUIabJrb4C/%E8%A8%AD%E5%AE%9A">設定</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/Fuv8VOcYDMle/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80">ライブフォルダ</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/ctDueAEDqTf1/%E5%86%99%E7%9C%9F%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80">写真フォルダ</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/YAwLmhiFtr4N/%E9%9F%B3%E6%A5%BD%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%83%BC">音楽フォルダー</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/2CC23fgj7RmE/%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%82%B0%E3%83%A9%E3%83%A0">インスタグラム</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/ItlwILQf7Ab3/%E5%89%8A%E9%99%A4">削除</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/aUhaS1i8Oo0x/google%E3%81%AE%E3%83%AD%E3%82%B4">Googleのロゴ</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/aQPo5cloovVv/%E8%A8%AD%E5%AE%9A">設定</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/iQ5bvDyFIPTz/%E3%83%84%E3%83%AA%E3%83%BC%E6%A7%8B%E9%80%A0">ツリー構造</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/n3oWQSL9RgNk/%E3%82%AB%E3%83%BC%E3%82%BD%E3%83%AB">カーソル</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/C3HstE5t1Rgw/%E9%9B%BB%E6%BA%90%E3%82%AA%E3%83%95%E3%83%9C%E3%82%BF%E3%83%B3">電源オフボタン</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            <li><a target="_blank" href="https://icons8.com/icon/eYMcGExURsNZ/%E3%83%8F%E3%83%B3%E3%83%89%E3%82%A2%E3%83%83%E3%83%97">ハンドアップ</a> アイコン by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- フリー画像 FREEPIK -->
+    <div class="FREEPIK mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">FREEPIK</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul>
+            <li><a href="https://jp.freepik.com/free-vector/neon-grid-background_4394259.htm#query=%E3%82%B2%E3%83%BC%E3%83%A0%20%E8%83%8C%E6%99%AF&position=9&from_view=keyword&track=ais&uuid=3b9b047c-21e3-422b-92f3-83ea474d4e6a">著作者：rawpixel.com</a>／出典：Freepik</li>
+            <li><a href="https://jp.freepik.com/free-photo/colorful-abstract-background_4190870.htm#query=%E8%83%8C%E6%99%AF%E7%B4%A0%E6%9D%90&position=13&from_view=keyword&track=sph&uuid=c614ed10-6e04-476d-8f0c-92ab5aa8e26f">著作者：rawpixel.com</a>／出典：Freepik</li>
+            <li><a href="https://jp.freepik.com/free-vector/pixel-art-vacation-background_29019073.htm#query=8bit&position=34&from_view=search&track=sph&uuid=84202645-e97c-4219-9f0c-2b50ff265379">著作者：pikisuperstar</a>／出典：Freepik</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- music紹介項目 -->
+    <div class="jisaku mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">自作曲</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul>
+            <li class="forest"><a href="#">おしゃれなカフェbgm</a></li>
+            <li class="haro"><a href="#">ハロウィン</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy mini-window m">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">耳コピ</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul>
+            <li class="jujuop"><a href="#">青のすみか(呪術廻戦2期op)</a></li>
+            <li class="daijoyuusan"><a href="#">大女優さん</a></li>
+            <li class="titinpuipui"><a href="#">チチンプイプイ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ゴミ箱 -->
+    <div class="gabage mini-window window">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">ゴミ箱</div>
+      <div class="mini-main">
+        <p>中身はありません</p>
+      </div>
+    </div>
+
+    <!-- 山尾紹介項目 -->
+    <div class="yamao-information mini-window window">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">山尾紹介</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul>
+            <li class="yamao-info"><a href="#">こんにちは</a></li>
+            <li class="information"><a href="#">山尾の情報</a></li>
+            <li class="kroi"><a href="#">【おすすめバンド】 Kroi</a></li>
+            <li class="kinggnu"><a href="#">【おすすめバンド】 kinggnu</a></li>
+            <li class="furugi"><a href="#">【趣味】 古着</a></li>
+            <li class="mahari"><a href="#">【趣味】 行きつけの古着屋「MAHARI」</a></li>
+            <li class="majan"><a href="#">【趣味】 麻雀</a></li>
+            <li class="drums"><a href="#">【趣味】 ドラム</a></li>
+            <li class="hunter"><a href="#">【漫画】 ハンター×ハンター</a></li>
+            <li class="cafe"><a href="#">【好物】 コーヒー</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- 設定 -->
+    <div class="seting mini-window window">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">設定</div>
+      <div class="mini-main">
+        <div class="info">
+          <ul>
+            <li class = "background">壁紙設定</li>
+            <li class = "shutdown">シャットダウン</li>
+            <li class = "reboot">再起動</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 壁紙設定 -->
+    <div class="background mini-window window">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">壁紙設定【クリックしたら背景が変わります】</div>
+      <div class="mini-main">
+        <div class="images">
+          <div class="background-img">
+            <img src="./img/背景/gameneon03.jpg" alt="ゲームネオン">
+            <p>ゲームネオン</p>
+          </div>
+
+          <div class="background-img">
+            <img src="./img/背景/1234.jpg" alt="異空間">
+            <p>異空間</p>
+          </div>
+
+          <div class="background-img">
+            <img src="./img/背景/colorful-abstract-background.jpg" alt="kawaii">
+            <p>かわいい色</p>
+          </div>
+
+          <div class="background-img">
+            <img src="./img/背景/7392521.jpg" alt="kawaii">
+            <p>焚火</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 再起動 -->
+    <div class="reboot mini-window ">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">警告</div>
+      <div class="mini-main">
+        <div class="coment">
+          <img src="./img/注意2.png" alt="警告">
+          <p>再起動しますか?</p>
+        </div>
+        <a class="yes-btn reboot-btn" href="#">はい</a>
+      </div>
+    </div>
+
+        <!-- 再起動 -->
+        <div class="shutdown mini-window ">
+          <a class="batu" href="#">×</a>
+          <div class="mini-header">警告</div>
+          <div class="mini-main">
+            <div class="coment">
+              <img src="./img/注意2.png" alt="警告">
+              <p>シャットダウンしますか?</p>
+            </div>
+            <a class="yes-btn shutdown-btn" href="#">はい</a>
+          </div>
+        </div>
+
+    <!-- 画像 クローン用 -->
+    <div class="mini-window l image-window-damy">
+      <a class="batu" href="#">×</a>
+      <div class="mini-header">
+        <div class="title"></div>
+      </div>
+      <div class="mini-main">
+        <img class="main-img" src="" alt="画像">
+      </div>
+    </div>
+
+
+
+    </div>
+  </main>
+
+  <!-- ローディング -->
+  <div class="loading">
+    <div class="user">
+      <span class="fa-solid fa-user"></span>
+      <p>User</p>
+    </div>
+    <div class="first-contents">
+      <div class="first-comennt">ようこそ</div>
+      <button class="start-btn">スタート</button>
+      <div class="loadingtime">
+        <div class="dot-wave__dot"></div>
+        <div class="dot-wave__dot"></div>
+        <div class="dot-wave__dot"></div>
+        <div class="dot-wave__dot"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "shutdown-black">
+    Please turn on the power
+    <img class = "first-btn" src="./img/icons8/icons8-電源オフボタン-48.png" alt="電源ボタン">
+  </div>
+</body>
+
+</html>

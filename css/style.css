@@ -1,0 +1,475 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+div,
+a,
+span,
+ul,
+li,
+img,
+p,
+audio {
+  cursor: url(../img/icons8/icons8-カーソル-20.png), default;
+}
+body {
+  margin: 0 0;
+  font-size: 1.4rem;
+  font-family: "DotGothic16", sans-serif;
+  background-color: rgb(16, 0, 16);
+  transition: 0.1s;
+  background: url(../img/背景/1234.jpg);
+  background-size: cover;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  display: block;
+  pointer-events: auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  padding: 20px 0;
+  z-index: 1;
+}
+
+header .icon {
+  display: block;
+  width: 60px;
+  text-align: center;
+  color: white;
+  margin: 20px;
+}
+
+header .icon p {
+  margin: 0;
+}
+
+header i {
+  font-size: 50px;
+}
+
+header img {
+  width: 50px;
+}
+
+header .icon span {
+  color: white;
+  display: inline-block;
+  font-size: 5rem;
+}
+
+.seting img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* .bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  z-index: -3;
+} */
+
+main {
+  height: 100vh;
+}
+
+.mini-window {
+  display: block;
+  cursor: pointer;
+  box-shadow: 2px 2px;
+  border: 2px solid rgb(238, 220, 255);
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  display: none;
+  z-index: 3;
+}
+
+.alert {
+  display: block;
+  background-color: #eeeeee;
+  width: 400px;
+  line-height: 40px;
+  font-size: 1.4rem;
+  top: 40%;
+  left: 40%;
+}
+
+.alert1 {
+  top: 35%;
+  left: 30%;
+}
+
+.alert2 {
+  top: 45%;
+  left: 40%;
+}
+
+.alert3 {
+  top: 40%;
+  left: 35%;
+}
+
+.alert p {
+  line-height: 1.5rem;
+}
+
+.alert .coment {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.coment img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+.mini-window .batu {
+  text-align: center;
+  line-height: 15px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(120, 47, 189);
+  border-top: 5px solid rgb(171, 110, 229);
+  border-right: 5px solid rebeccapurple;
+  border-bottom: 5px solid rgb(82, 46, 117);
+  border-left: 5px solid rgb(220, 186, 251);
+}
+.mini-header {
+  background-color: rgb(120, 47, 189);
+  height: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.mini-main {
+  background-color: rgb(238, 220, 255);
+  border: 3px solid rgb(120, 47, 189);
+  text-align: center;
+  padding-bottom: 1rem;
+  z-index: 0;
+}
+
+.mini-main .yes-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  width: 60px;
+  border-top: 3px solid rgb(242, 229, 255);
+  border-right: 3px solid rgb(145, 110, 180);
+  border-bottom: 3px solid rgb(144, 105, 183);
+  border-left: 3px solid rgb(250, 245, 255);
+}
+
+.mini-main .main-img {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.box {
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+.s {
+  width: 200px;
+}
+
+.m {
+  width: 300px;
+}
+
+.l {
+  width: 400px;
+}
+
+.shadow {
+  display: none;
+}
+
+.images {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.images p {
+  margin: 0;
+}
+
+.images .image-content {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.background-img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.music-content {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.music-content img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.musics {
+  display: flex;
+}
+
+.images .image-content p {
+  margin: 0;
+}
+
+.images .image-content img {
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+}
+
+.window {
+  top: 10%;
+  left: 15%;
+  display: none;
+}
+
+.window .mini-main {
+  width: 700px;
+  height: 500px;
+}
+
+.image-window {
+  width: 700px;
+}
+
+.image-window-damy {
+  display: none;
+}
+
+.info ul {
+  list-style: none;
+}
+
+.info ul li {
+  text-align: left;
+}
+
+.yamao-information .info ul li a {
+  pointer-events: none;
+}
+
+.day {
+  width: 400px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-200px);
+}
+
+.music-icon {
+  font-size: 8rem;
+}
+
+.loading {
+  display: flex;
+  /* 開発のためのdisplay none */
+  display: none;
+  flex-direction: column;
+  z-index: 999;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-20deg, #7b1271 0%, #095e3f 100%);
+}
+
+.loading .user {
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  font-size: 3rem;
+  margin: 10% auto 0;
+}
+
+.loading .user span {
+  background-color: rgb(87, 87, 87);
+  padding: 50px;
+  font-size: 100px;
+  border-radius: 50%;
+}
+.first-contents {
+  text-align: center;
+}
+
+.first-contents .first-comennt {
+  font-size: 2rem;
+  display: none;
+}
+.first-contents .start-btn {
+  display: inline;
+  font-family: "DotGothic16";
+  border: 1px solid rgb(138, 138, 138);
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: rgb(87, 87, 87);
+  box-shadow: 2px 2px;
+}
+
+.first-contents .start-btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+/* 再起動 */
+.reboot img {
+  margin: 0 auto;
+}
+
+/* コピペ ローディングアニメーション */
+.loadingtime {
+  position: relative;
+
+  top: 30px;
+  --uib-size: 50px;
+  --uib-speed: 0.6s;
+  --uib-color: #dd6bd2;
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--uib-size);
+  height: calc(var(--uib-size) * 0.17);
+  padding-top: calc(var(--uib-size) * 0.34);
+}
+
+.dot-wave__dot {
+  display: none;
+  flex-shrink: 0;
+  width: calc(var(--uib-size) * 0.17);
+  height: calc(var(--uib-size) * 0.17);
+  border-radius: 50%;
+  background-color: var(--uib-color);
+  will-change: transform;
+}
+
+.dot-wave__dot:nth-child(1) {
+  animation: jump824 var(--uib-speed) ease-in-out calc(var(--uib-speed) * -0.45)
+    infinite;
+}
+
+.dot-wave__dot:nth-child(2) {
+  animation: jump824 var(--uib-speed) ease-in-out calc(var(--uib-speed) * -0.3)
+    infinite;
+}
+
+.dot-wave__dot:nth-child(3) {
+  animation: jump824 var(--uib-speed) ease-in-out calc(var(--uib-speed) * -0.15)
+    infinite;
+}
+
+.dot-wave__dot:nth-child(4) {
+  animation: jump824 var(--uib-speed) ease-in-out infinite;
+}
+
+@keyframes jump824 {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-200%);
+  }
+}
+
+/* シャットダウン */
+.shutdown-black {
+  cursor: url(../img/icons8/icons8-ハンドアップ-48.png), default;
+  display: none;
+  z-index: 999;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+/* 電源ボタン */
+/* 終わり */
+.first-btn {
+  cursor: url(../img/icons8/icons8-ハンドアップ-48.png), default;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.displaynone {
+  display: none;
+}
