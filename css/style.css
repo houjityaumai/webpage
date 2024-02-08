@@ -448,6 +448,14 @@ main {
 }
 
 /* シャットダウン */
+/* .shutdown .coment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+.shutdown .coment img {
+  margin: 0 auto;
+}
 .shutdown-black {
   cursor: url(../img/icons8/icons8-ハンドアップ-48.png), default;
   display: none;
