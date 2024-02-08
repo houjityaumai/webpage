@@ -101,6 +101,8 @@ main {
 }
 
 .mini-window {
+  background-image: url(../img/背景/1234.jpg);
+  background-size: cover;
   display: block;
   cursor: pointer;
   box-shadow: 2px 2px;
@@ -142,17 +144,16 @@ main {
 }
 
 .alert .coment {
+  background-color: rgba(255, 255, 255, 0.774);
   display: flex;
   align-items: center;
-  width: 300px;
-  margin: 0 auto;
 }
 
 .coment img {
   display: block;
   width: 30px;
   height: 30px;
-  margin-right: 30px;
+  margin: 0 30px;
 }
 
 .mini-window .batu {
@@ -181,7 +182,7 @@ main {
 }
 
 .mini-main {
-  background-color: rgb(238, 220, 255);
+  background-color: rgba(255, 254, 255, 0.774);
   border: 3px solid rgb(120, 47, 189);
   text-align: center;
   padding-bottom: 1rem;
@@ -333,7 +334,7 @@ main {
 .loading {
   display: flex;
   /* 開発のためのdisplay none */
-  /* display: none; */
+  display: none;
   flex-direction: column;
   z-index: 999;
   color: white;
@@ -448,11 +449,6 @@ main {
 }
 
 /* シャットダウン */
-/* .shutdown .coment {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 .shutdown .coment img {
   margin: 0 auto;
 }
