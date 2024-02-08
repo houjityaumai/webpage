@@ -477,3 +477,59 @@ main {
 .displaynone {
   display: none;
 }
+
+/* 毒チワワ */
+.poisondog {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.poisondog img {
+  width: 80px;
+}
+/* チワワふわふわアニメ */
+/* 回転するアニメーション */
+@keyframes fuwafuwa {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* このクラスをつけると回転を無限に繰り返します */
+.anime-fuwafuwa {
+  animation: 4s fuwafuwa infinite;
+}
+
+/* 吹き出し */
+.balloon1-right {
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+  margin: 1.5em 15px 1.5em 0;
+  padding: 7px 10px;
+  color: #555;
+  font-size: 16px;
+  background: rgba(230, 213, 230, 0.88);
+}
+
+.balloon1-right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid rgba(230, 213, 230, 0.88);
+}
+
+.balloon1-right p {
+  margin: 0;
+  padding: 0;
+}

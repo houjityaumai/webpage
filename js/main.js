@@ -251,6 +251,39 @@ $(function () {
     sleep(1000);
     window.location.reload();
   });
+
+  //-----------チワワ吹き出し機能-----------
+  const $tiwawa = $(".poisondog");
+  const $tiwawafukidasi = $($tiwawa).find("p");
+  const tiwawacoment = [
+    "元気出せよ",
+    "ようこそ",
+    "見に来てくれてありがとう",
+    "呪術廻戦見て",
+    "いい天気だね",
+  ];
+  const tiwawacoment3 = ["触るな！", "気安く触るな！", "おい", "手洗った？"];
+  const tiwawacoment2 = [
+    "ファイルとか開いてみてよ",
+    "触るんじゃないぞ！",
+    "ウィンドウをドラッグして動かしてみてよ",
+    "歯車は設定",
+  ];
+  const index = Math.floor(Math.random() * tiwawacoment.length);
+  $tiwawafukidasi.text(tiwawacoment[index]);
+
+  const $tiwawaImg = $tiwawa.find("img");
+  $tiwawaImg.hover(
+    function () {
+      const index = Math.floor(Math.random() * tiwawacoment3.length);
+      $tiwawafukidasi.text(tiwawacoment3[index]);
+    },
+    function () {
+      const index = Math.floor(Math.random() * tiwawacoment2.length);
+      $tiwawafukidasi.text(tiwawacoment2[index]);
+    }
+  );
+
   // //ーーーーーホバー機能ーーーーーー
   // const $bg = $(".bg");
 
